@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Contacts from "./components/links";
 
 export default function Home() {
@@ -6,9 +7,11 @@ export default function Home() {
     <section className="flex flex-col gap-1">
       <h1 className="font-bold text-lg">Aldi Ahmad Fahrizi Ilmawan</h1> 
      
-      <img
-        src="profile.png"
+      <Image
+        src="/profile.png"
         alt="Profile photo"
+        width={144}
+        height={144}
         className="w-36 h-36 rounded-full object-cover mt-3 mb-3"
       />
 
