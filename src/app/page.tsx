@@ -17,9 +17,10 @@ export default function Home() {
       />
 
       <p className="text-sm">
-        Web developer turned QA enthusiast with a strong foundation in
-        JavaScript and React.js. Bringing technical insight and attention to
-        detail to design effective test cases and automation scripts.
+        Junior QA Engineer skilled in manual & automation testing (Playwright,
+        Selenium, Katalon). Experienced in API testing, CI/CD pipelines, and
+        Agile collaboration. Strong debugging, analytical, and problem-solving
+        skills with solid web development background.
       </p>
 
       <p className="text-sm text-gray-600 mt-2">
