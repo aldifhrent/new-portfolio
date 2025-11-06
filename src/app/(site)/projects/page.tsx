@@ -1,12 +1,4 @@
-import Link from "next/link";
-
-const projects = [
-  {
-    title: "QA-PWDK-Playwright",
-    desc: "Automation testing suite for the Simple POS PWDK web application using Playwright. Implemented Page Object Model (POM), fixtures, CI/CD pipelines, and comprehensive test coverage for login, product search, cart, and checkout workflows.",
-    href: "https://github.com/aldifhrent/simple-pwdk",
-  },
-];
+import { projects } from "@/app/lib/const";
 
 export default function Page() {
   return (

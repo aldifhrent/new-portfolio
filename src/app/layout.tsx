@@ -14,10 +14,44 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Aldi Fahrizi — QA Engineer",
+  title: "Aldi Ahmad Fahrizi Ilmawan",
   description:
-    "Portfolio of Aldi Ahmad Fahrizi Ilmawan, a QA Engineer and Web Developer focused on Playwright, API testing, and automation projects.",
+    "Portfolio of Aldi Ahmad Fahrizi Ilmawan, a QA Engineer and Web Developer specializing in automation testing with Playwright, API testing using Postman, and modern frontend development using Next.js and Tailwind CSS.",
+  keywords: [
+    "Aldi Ahmad Fahrizi Ilmawan",
+    "QA Engineer",
+    "Quality Assurance",
+    "Software Tester",
+    "Automation Testing",
+    "Playwright",
+    "Postman",
+    "Next.js",
+    "Tailwind CSS",
+    "Web Developer",
+    "Indonesia QA",
+    "Purwadhika QA Engineer",
+  ],
+  authors: [{ name: "Aldi Ahmad Fahrizi Ilmawan", url: "https://aldifhr.fun" }],
+  creator: "Aldi Ahmad Fahrizi Ilmawan",
+  publisher: "Aldi Ahmad Fahrizi Ilmawan",
+
+  openGraph: {
+    title: "Aldi Ahmad Fahrizi Ilmawan",
+    description:
+      "Explore the portfolio of Aldi Ahmad Fahrizi Ilmawan, showcasing QA automation, API testing, and web development projects.",
+    url: "https://aldifhrent.tech",
+    siteName: "Aldi Ahmad Fahrizi Ilmawan",
+    locale: "en_US",
+    type: "website",
+  },
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+  },
+
+  metadataBase: new URL("https://aldifhr.fun"),
 };
+
 
 
 export default function RootLayout({
