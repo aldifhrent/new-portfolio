@@ -5,8 +5,9 @@ import Contacts from "./components/links";
 export default function Home() {
   return (
     <section className="flex flex-col gap-1">
-      <h1 className="font-bold text-lg">Aldi Ahmad Fahrizi Ilmawan</h1> 
-     
+      <h1 className="font-bold text-lg">Aldi Ahmad Fahrizi Ilmawan</h1>
+      <p className="text-gray-600 text-sm">QA Engineer</p>
+
       <Image
         src="/profile.png"
         alt="Profile photo"
@@ -20,12 +21,14 @@ export default function Home() {
         JavaScript and React.js. Bringing technical insight and attention to
         detail to design effective test cases and automation scripts.
       </p>
+
       <p className="text-sm text-gray-600 mt-2">
         Open to Work (Hybrid/On-site in Jakarta)
       </p>
+
       <div>
         <p className="font-semibold mt-3">Skills</p>
-        <div className="mt-2 flex flex-wrap gap-2 text-sm">
+        <ul className="mt-2 flex flex-col gap-2 text-sm list-disc pl-5">
           {[
             "Playwright",
             "Postman",
@@ -34,11 +37,9 @@ export default function Home() {
             "Jira",
             "TestRail",
           ].map((tool) => (
-            <span key={tool} className="px-2 py-1 bg-gray-100 rounded">
-              {tool}
-            </span>
+            <li key={tool}>{tool}</li>
           ))}
-        </div>
+        </ul>
       </div>
 
       <Contacts />

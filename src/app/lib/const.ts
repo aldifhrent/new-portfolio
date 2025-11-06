@@ -1,14 +1,5 @@
 export const menus = [
-    {
-        name: 'about',
-        href: '/'
-    },
-    {
-        name: 'work',
-        href: '/work'
-    },
-    {
-        name: 'projects',
-        href: '/projects'
-    },
-]
+  { name: "About", href: "/" },
+  { name: "Experience", href: "/work" },
+  { name: "Projects", href: "/projects" },
+];
