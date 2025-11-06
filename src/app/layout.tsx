@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { menus } from "./lib/const";
 import SideBar from "./components/sidebar";
-
+import { SpeedInsights } from "@vercel/speed-insights/next"
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -33,13 +32,13 @@ export default function RootLayout({
       >
         <main className="flex items-center justify-center min-h-screen w-full p-4">
           <div className="flex flex-col lg:flex-row gap-4 lg:gap-12 max-w-2xl w-full">
-            {/* MENU: xs vertikal di kiri, sm+ horizontal di atas */}
             <SideBar />
-
-            <section className="flex flex-col gap-5">{children}</section>
+            <section className="flex flex-col gap-5">{children}<SpeedInsights/></section>
+            
           </div>
         </main>
       </body>
+      
     </html>
   );
 }
