@@ -2,7 +2,7 @@ export default function Contacts() {
   return (
     <div className="mt-3">
       <p className="font-bold">Links</p>
-      <div className="mt-2 flex flex-col gap-3 text-">
+      <div className="mt-2 flex  gap-3 text-">
         <a
           href="https://www.linkedin.com/in/aldifahrizi"
           className="text-sm text-blue-600 hover:underline"
@@ -18,7 +18,7 @@ export default function Contacts() {
           Github
         </a>
         <a
-          href="https://www.instagram.com/aldi.fhrn/"
+          href="https://www.instagram.com/aldi.fhr"
           className="text-sm text-blue-600 hover:underline"
           target="blank"
         >
