@@ -20,9 +20,9 @@ export const experiences = [
     company: "PT Puskomedia Indonesia Kreatif",
     period: "2022",
     details: [
-      "Assisted in slicing responsive web pages using Next.js and Tailwind CSS.",
-      "Collaborated with the frontend team to fix UI bugs and optimize performance.",
-      "Gained experience in version control and basic QA workflow.",
+      "Developed geolocation feature on Panda SID using CodeIgniter.",
+      "Optimized SQL queries and visualized PKH data with Laravel + Highcharts.",
+      "Collaborated with team on code reviews and debugging.",
     ],
   },
   

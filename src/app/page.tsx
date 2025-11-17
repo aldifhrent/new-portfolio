@@ -1,10 +1,12 @@
-"use client";
-import Image from "next/image";
-import Contacts from "./components/links";
+
+import About from "./components/about";
+import Contacts from "./components/contacts";
+import Skills from "./components/skills";
 
 export default function Home() {
   return (
     <section className="flex flex-col gap-1">
+<<<<<<< HEAD
       <h1 className="font-bold text-lg">Aldi Ahmad Fahrizi Ilmawan</h1>
       <p className="text-gray-600 text-sm">QA Engineer</p>
 
@@ -43,6 +45,10 @@ export default function Home() {
         </ul>
       </div>
 
+=======
+      <About/>
+      <Skills/>
+>>>>>>> ee66f16f7cce0ef1654889f3e25c2240bb8d7177
       <Contacts />
     </section>
   );
