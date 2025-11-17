@@ -35,9 +35,8 @@ export const educations = [
     gpa: "GPA: 3.44 / 4.00",
     finalProject:
       "Blockchain-based ticketing system for music events using NFTs, developed with Next.js, Tailwind CSS, and Thirdweb.",
-    year: "2020 — 2024",
+    year: "2019 — 2024",
     location: "Purwokerto, Indonesia",
-    // link: "https://github.com/aldifahrizi/nft-ticketing", // tambahkan kalau punya repo
   },
 ];
 

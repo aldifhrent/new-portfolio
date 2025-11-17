@@ -29,7 +29,7 @@ export default function Home() {
 
       <div>
         <p className="font-semibold mt-3">Skills</p>
-        <ul className="mt-2 flex flex-col gap-2 text-sm list-disc pl-5">
+        <ul className="mt-2 flex  gap-10 text-sm list-disc pl-5">
           {[
             "Playwright",
             "Postman",
@@ -38,7 +38,7 @@ export default function Home() {
             "Jira",
             "TestRail",
           ].map((tool) => (
-            <li key={tool}>{tool}</li>
+            <li key={tool} className="text-nowrap">{tool}</li>
           ))}
         </ul>
       </div>

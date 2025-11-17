@@ -9,11 +9,10 @@ export default function EducationPage() {
         <ul className="list-disc pl-5 flex flex-col gap-4">
           {educations.map((edu, i) => (
             <li key={i}>
-              <p className="font-medium hover:text-blue-800 hover:underline">
-                {edu.title}
+              <p className="font-medium">
+                {edu.title} - {edu.location}
               </p>
               <p className="text-sm text-gray-600 mt-1">{edu.major}</p>
-              <p className="text-sm text-gray-500">{edu.location}</p>
               <p className="text-sm text-gray-500 mb-1">{edu.year}</p>
               <p className="text-sm">{edu.gpa}</p>
               <p className="text-sm mt-2">
