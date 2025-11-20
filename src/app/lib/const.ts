@@ -1,6 +1,6 @@
 export const menus = [
   { name: "About", href: "/" },
-  { name: "Educations", href: "/educations"},
+  { name: "Educations", href: "/educations" },
   { name: "Experience", href: "/work" },
   { name: "Projects", href: "/projects" },
   { name: "Certificates", href: "/certificates" },
@@ -9,8 +9,15 @@ export const menus = [
 export const projects = [
   {
     title: "Simple PWDK",
+    year: 2025,
     desc: "Automation testing suite for the Simple POS PWDK web application using Playwright. Implemented Page Object Model (POM), fixtures, CI/CD pipelines, and comprehensive test coverage for login, product search, cart, and checkout workflows.",
     href: "https://github.com/aldifhrent/simple-pwdk",
+  },
+  {
+    title: "SauceDemo Labs",
+    year: 2025,
+    desc: "Manual testing project covering login, product browsing, sorting, cart operations, and checkout workflows on the SauceDemo web application using structured test cases.",
+    href: "https://github.com/aldifhrent/saucedemo-playwright",
   },
 ];
 
@@ -25,7 +32,6 @@ export const experiences = [
       "Collaborated with team on code reviews and debugging.",
     ],
   },
-  
 ];
 
 export const educations = [

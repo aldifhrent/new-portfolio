@@ -1,5 +1,11 @@
 import { projects } from "@/app/lib/const";
 
+interface Project {
+  title: string;
+  year: number;
+  desc: string;
+  href: string;
+}
 export default function Page() {
   return (
     <div className="flex flex-col gap-8">
@@ -7,9 +13,9 @@ export default function Page() {
         <h2 className="font-semibold text-lg mb-2">Projects</h2>
 
         <ul className="list-disc pl-5 flex flex-col gap-3">
-          {projects.map((p, i) => (
+          {projects.map((p: Project, i) => (
             <li key={i}>
-              <p className="font-medium">{p.title}</p>
+              <p className="font-medium">{p.title} - {p.year}</p>
               <p className="text-xs text-gray-600 mt-1">{p.desc}</p>
               <p className="mt-1">
                 <a

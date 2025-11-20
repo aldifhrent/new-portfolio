@@ -2,7 +2,7 @@ export default function Skills() {
     return (
         <div>
         <p className="font-semibold mt-3">Skills</p>
-        <ul className="mt-2 flex  gap-10 text-sm list-disc pl-5">
+        <ul className="mt-2 flex gap-10 space-5 text-sm list-disc pl-5">
           {[
             "Playwright",
             "Postman",
