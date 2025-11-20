@@ -1,9 +1,9 @@
 export const menus = [
   { name: "About", href: "/" },
-  { name: "Educations", href: "/educations" },
+  // { name: "Educations", href: "/educations" },
   { name: "Experience", href: "/work" },
   { name: "Projects", href: "/projects" },
-  { name: "Certificates", href: "/certificates" },
+  // { name: "Certificates", href: "/certificates" },
 ];
 
 export const projects = [
